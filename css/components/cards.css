@@ -1,0 +1,32 @@
+.cards_container h2 {
+  text-align: center;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
+  justify-content: space-between;
+  max-width: 1200px;
+  padding: 32px;
+  margin: 0px auto;
+}
+
+.card {
+  text-align: center;
+  box-shadow: 1px 1px 30px rgb(158, 158, 158);
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.card-image {
+  padding: 10px;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card p {
+  color: rgb(128, 127, 127);
+}
